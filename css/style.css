@@ -63,10 +63,6 @@ footer>.container>.row>a>p {
   text-decoration: none;
 
 }
-.texto-footer{
-
-}
-
 .manito {
   position: absolute;
   bottom: 155px;
@@ -79,9 +75,6 @@ footer>.container>.row>a>p {
   -moz-animation: manito 4s infinite;
   -webkit-animation: manito 4s infinite;
 }
-
-
-
 
 #logo {
   animation: logo 5s infinite;
