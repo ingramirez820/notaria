@@ -63,15 +63,14 @@ footer>.container>.row>a>p {
   text-decoration: none;
 
 }
+.texto-footer{
 
-.space-p {
-  margin-top: 80px;
 }
 
 .manito {
   position: absolute;
-  bottom: 70px;
-  left: 270px;
+  bottom: 155px;
+  left: 325px;
   width: 10%;
   opacity: 0.6;
   margin-top: 50px;
