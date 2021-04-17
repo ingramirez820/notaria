@@ -33,23 +33,6 @@ footer>.container>.row>a>p {
   padding: 0;
 }
 
-.title-roman1 {
-  position: absolute;
-  left: 140px;
-  bottom: 10px;
-}
-
-.title-roman2 {
-  position: absolute;
-  left: 135px;
-  bottom: 10px;
-}
-
-.title-roman3 {
-  position: absolute;
-  left: 133px;
-  bottom: 10px;
-}
 .cardi{
   bottom: none;
   outline:none;
@@ -81,13 +64,6 @@ footer>.container>.row>a>p {
 
 }
 
-.t-none {
-  margin-top: 5px;
-  color: var(--color-blue-dark);
-  font-size: 18px;
-  
-}
-
 .space-p {
   margin-top: 80px;
 }
@@ -105,34 +81,8 @@ footer>.container>.row>a>p {
   -webkit-animation: manito 4s infinite;
 }
 
-.contenido {
-  width: 100%;
-  height: 100%;
-}
 
-.backgroundslider {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-}
 
-.backgroundslider li {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0;
-  animation: fade-out 24s linear infinite;
-  -webkit-animation: fade-out 24s linear infinite;
-  -moz-animation: fade-out 24s linear infinite;
-  -o-animation: fade-out 24s linear infinite;
-  -ms-animation: fade-out 24s linear infinite;
-}
 
 #logo {
   animation: logo 5s infinite;
@@ -140,63 +90,10 @@ footer>.container>.row>a>p {
   -webkit-animation: logo 5s infinite;
 }
 
-.bg-ttfe {
-  color: var(--color-ttfe);
-}
-
-.bg-presentacion {
-  background: #000;
-  color: white;
-  border: red;
-  border-radius: 20px;
-}
-
-.bg-red {
-  background-color: var(--color-red);
-}
-
-.bg-dark2 {
-  background-color: var(--color-blue-dark);
-}
 .bg-principal{
   background-color: var(--color-principal);
 }
 
-.bg-circle {
-  color: var(--color-blue-dark);
-}
-
-.bg-circle-question {
-  position: absolute;
-  left: 120px;
-  bottom: -80px;
-  color: var(--color-blue-dark);
-}
-
-.title-question {
-  position: absolute;
-  font-size: 40px;
-  left: 128px;
-  bottom: 10px;
-}
-
-.bg-dark3 {
-  background-color: rgba(0, 63, 236, 0.705);
-}
-
-.margin-page-1{
-    margin-top: 150px;
-  }
-  
-  .margin-page-2{
-    margin-top: 100px;
-  }
-  .margin-page-3{
-    margin-top: 100px;
-  }
-  .margin-page-4{
-    margin-top: 100px;
-  }
 #telephone {
   animation: telefono 0.5s infinite;
   -moz-animation: telefono 0.5s infinite;
@@ -266,7 +163,7 @@ footer>.container>.row>a>p {
 --Gradientes
 -----------------------------------------------  */
 .bg-gradient {
-  background-image: linear-gradient(135deg, rgb(11, 15, 71, 0.904) 0%, rgba(0, 63, 236, 0.705) 100%);
+  background-image: linear-gradient(135deg, rgba(95, 49, 6, 0.904) 0%, rgba(126, 83, 20, 0.705) 100%);
   /* background-image: -webkit-linear-gradient( 135deg, rgba(25, 14, 92, 0.5) 0%, rgb(11, 1, 7,1) 100%);
   background-image: -moz-linear-gradient( 135deg, rgba(25, 14, 92, 0.5) 0%, rgb(11, 1, 7,1) 100%);
   background-image: -ms-linear-gradient( 135deg, rgba(25, 14, 92, 0.5) 0%, rgb(11, 1, 7,1) 100%); */
